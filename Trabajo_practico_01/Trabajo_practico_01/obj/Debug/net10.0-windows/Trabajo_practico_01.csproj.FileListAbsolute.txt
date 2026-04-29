@@ -1,0 +1,16 @@
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\bin\Debug\net10.0-windows\Trabajo_practico_01.exe
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\bin\Debug\net10.0-windows\Trabajo_practico_01.deps.json
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\bin\Debug\net10.0-windows\Trabajo_practico_01.runtimeconfig.json
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\bin\Debug\net10.0-windows\Trabajo_practico_01.dll
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\bin\Debug\net10.0-windows\Trabajo_practico_01.pdb
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\obj\Debug\net10.0-windows\Trabajo_practico_01.FormLogin.resources
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\obj\Debug\net10.0-windows\Trabajo_practico_01.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\obj\Debug\net10.0-windows\Trabajo_practico_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\obj\Debug\net10.0-windows\Trabajo_practico_01.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\obj\Debug\net10.0-windows\Trabajo_practico_01.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\obj\Debug\net10.0-windows\Trabajo_practico_01.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\obj\Debug\net10.0-windows\Trabajo_practico_01.dll
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\obj\Debug\net10.0-windows\refint\Trabajo_practico_01.dll
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\obj\Debug\net10.0-windows\Trabajo_practico_01.pdb
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\obj\Debug\net10.0-windows\Trabajo_practico_01.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\NSLP\3 año, primer cuatrimestre\Programacion 5\Trabajo_practico_01\Trabajo_practico_01\obj\Debug\net10.0-windows\ref\Trabajo_practico_01.dll
