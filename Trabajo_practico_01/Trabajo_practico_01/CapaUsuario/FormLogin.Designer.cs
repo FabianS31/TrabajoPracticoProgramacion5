@@ -42,9 +42,10 @@
             // usuario
             // 
             usuario.AutoSize = true;
-            usuario.Location = new Point(51, 113);
+            usuario.Location = new Point(36, 68);
+            usuario.Margin = new Padding(2, 0, 2, 0);
             usuario.Name = "usuario";
-            usuario.Size = new Size(72, 25);
+            usuario.Size = new Size(47, 15);
             usuario.TabIndex = 1;
             usuario.Text = "Usuario";
             usuario.Click += label1_Click;
@@ -52,42 +53,48 @@
             // contraseña
             // 
             contraseña.AutoSize = true;
-            contraseña.Location = new Point(51, 199);
+            contraseña.Location = new Point(36, 119);
+            contraseña.Margin = new Padding(2, 0, 2, 0);
             contraseña.Name = "contraseña";
-            contraseña.Size = new Size(101, 25);
+            contraseña.Size = new Size(67, 15);
             contraseña.TabIndex = 2;
             contraseña.Text = "Contraseña";
             contraseña.Click += label2_Click;
             // 
             // usuario_texto
             // 
-            usuario_texto.Location = new Point(51, 141);
+            usuario_texto.Location = new Point(36, 85);
+            usuario_texto.Margin = new Padding(2);
             usuario_texto.Name = "usuario_texto";
-            usuario_texto.Size = new Size(262, 31);
+            usuario_texto.Size = new Size(185, 23);
             usuario_texto.TabIndex = 3;
             // 
             // usuario_contraseña
             // 
-            usuario_contraseña.Location = new Point(51, 227);
+            usuario_contraseña.Location = new Point(36, 136);
+            usuario_contraseña.Margin = new Padding(2);
             usuario_contraseña.Name = "usuario_contraseña";
             usuario_contraseña.PasswordChar = '*';
-            usuario_contraseña.Size = new Size(262, 31);
+            usuario_contraseña.Size = new Size(185, 23);
             usuario_contraseña.TabIndex = 4;
             // 
             // boton_aceptar
             // 
-            boton_aceptar.Location = new Point(196, 376);
+            boton_aceptar.Location = new Point(137, 226);
+            boton_aceptar.Margin = new Padding(2);
             boton_aceptar.Name = "boton_aceptar";
-            boton_aceptar.Size = new Size(117, 39);
+            boton_aceptar.Size = new Size(82, 23);
             boton_aceptar.TabIndex = 5;
             boton_aceptar.Text = "Aceptar";
             boton_aceptar.UseVisualStyleBackColor = true;
+            boton_aceptar.Click += boton_aceptar_Click;
             // 
             // boton_cancelar
             // 
-            boton_cancelar.Location = new Point(340, 376);
+            boton_cancelar.Location = new Point(238, 226);
+            boton_cancelar.Margin = new Padding(2);
             boton_cancelar.Name = "boton_cancelar";
-            boton_cancelar.Size = new Size(117, 39);
+            boton_cancelar.Size = new Size(82, 23);
             boton_cancelar.TabIndex = 6;
             boton_cancelar.Text = "Cancelar";
             boton_cancelar.UseVisualStyleBackColor = true;
@@ -95,35 +102,39 @@
             // Texto_presentacion
             // 
             Texto_presentacion.AutoSize = true;
-            Texto_presentacion.Location = new Point(51, 47);
+            Texto_presentacion.Location = new Point(36, 28);
+            Texto_presentacion.Margin = new Padding(2, 0, 2, 0);
             Texto_presentacion.Name = "Texto_presentacion";
-            Texto_presentacion.Size = new Size(410, 25);
+            Texto_presentacion.Size = new Size(273, 15);
             Texto_presentacion.TabIndex = 7;
             Texto_presentacion.Text = "Bienvenidos a EduGes, inicie sesión para comenzar";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(52, 286);
+            label4.Location = new Point(36, 172);
+            label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
-            label4.Size = new Size(0, 25);
+            label4.Size = new Size(0, 15);
             label4.TabIndex = 8;
             // 
             // usuario_nuevo
             // 
             usuario_nuevo.AutoSize = true;
-            usuario_nuevo.Location = new Point(57, 290);
+            usuario_nuevo.Location = new Point(40, 174);
+            usuario_nuevo.Margin = new Padding(2);
             usuario_nuevo.Name = "usuario_nuevo";
-            usuario_nuevo.Size = new Size(142, 29);
+            usuario_nuevo.Size = new Size(96, 19);
             usuario_nuevo.TabIndex = 9;
             usuario_nuevo.Text = "Crear usuario";
             usuario_nuevo.UseVisualStyleBackColor = true;
+            usuario_nuevo.CheckedChanged += usuario_nuevo_CheckedChanged;
             // 
             // FormLogin
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(512, 450);
+            ClientSize = new Size(358, 270);
             Controls.Add(usuario_nuevo);
             Controls.Add(label4);
             Controls.Add(Texto_presentacion);
@@ -133,6 +144,7 @@
             Controls.Add(usuario_texto);
             Controls.Add(contraseña);
             Controls.Add(usuario);
+            Margin = new Padding(2);
             Name = "FormLogin";
             Text = "Eduges";
             Load += Form1_Load;

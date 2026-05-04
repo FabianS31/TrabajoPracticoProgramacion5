@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\NSLP\\3 año, primer cuatrimestre\\Programacion 5\\Trabajo_practico_01\\Trabajo_practico_01\\Trabajo_practico_01.csproj": {}
+    "C:\\Users\\Roman\\source\\repos\\TrabajoPracticoProgramacion5\\Trabajo_practico_01\\Trabajo_practico_01\\Trabajo_practico_01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\NSLP\\3 año, primer cuatrimestre\\Programacion 5\\Trabajo_practico_01\\Trabajo_practico_01\\Trabajo_practico_01.csproj": {
+    "C:\\Users\\Roman\\source\\repos\\TrabajoPracticoProgramacion5\\Trabajo_practico_01\\Trabajo_practico_01\\Trabajo_practico_01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\NSLP\\3 año, primer cuatrimestre\\Programacion 5\\Trabajo_practico_01\\Trabajo_practico_01\\Trabajo_practico_01.csproj",
+        "projectUniqueName": "C:\\Users\\Roman\\source\\repos\\TrabajoPracticoProgramacion5\\Trabajo_practico_01\\Trabajo_practico_01\\Trabajo_practico_01.csproj",
         "projectName": "Trabajo_practico_01",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\NSLP\\3 año, primer cuatrimestre\\Programacion 5\\Trabajo_practico_01\\Trabajo_practico_01\\Trabajo_practico_01.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\NSLP\\3 año, primer cuatrimestre\\Programacion 5\\Trabajo_practico_01\\Trabajo_practico_01\\obj\\",
+        "projectPath": "C:\\Users\\Roman\\source\\repos\\TrabajoPracticoProgramacion5\\Trabajo_practico_01\\Trabajo_practico_01\\Trabajo_practico_01.csproj",
+        "packagesPath": "C:\\Users\\Roman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Roman\\source\\repos\\TrabajoPracticoProgramacion5\\Trabajo_practico_01\\Trabajo_practico_01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Roman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +25,7 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net10.0-windows": {
-            "framework": "net10.0-windows7.0",
+          "net10.0-windows7.0": {
             "targetAlias": "net10.0-windows",
             "projectReferences": {}
           }
@@ -44,9 +43,14 @@
         "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
-        "net10.0-windows": {
-          "framework": "net10.0-windows7.0",
+        "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

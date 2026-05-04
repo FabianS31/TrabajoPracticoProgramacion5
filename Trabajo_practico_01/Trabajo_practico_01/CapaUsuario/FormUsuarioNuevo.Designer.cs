@@ -1,6 +1,6 @@
 ﻿namespace Trabajo_practico_01.CapaUsuario
 {
-    partial class Form1
+    partial class FormUsuarioNuevo
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,101 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            txtNuevoUsuario = new TextBox();
+            txtNuevaPass = new TextBox();
+            txtConfirmarPass = new TextBox();
+            btnRegistrar = new Button();
+            SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(258, 65);
+            label1.Name = "label1";
+            label1.Size = new Size(88, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Nuevo Usuario:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(258, 122);
+            label2.Name = "label2";
+            label2.Size = new Size(70, 15);
+            label2.TabIndex = 1;
+            label2.Text = "Contraseña:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(258, 174);
+            label3.Name = "label3";
+            label3.Size = new Size(127, 15);
+            label3.TabIndex = 2;
+            label3.Text = "Confirmar Contraseña:";
+            // 
+            // txtNuevoUsuario
+            // 
+            txtNuevoUsuario.Location = new Point(258, 83);
+            txtNuevoUsuario.Name = "txtNuevoUsuario";
+            txtNuevoUsuario.Size = new Size(127, 23);
+            txtNuevoUsuario.TabIndex = 3;
+            // 
+            // txtNuevaPass
+            // 
+            txtNuevaPass.Location = new Point(258, 140);
+            txtNuevaPass.Name = "txtNuevaPass";
+            txtNuevaPass.Size = new Size(127, 23);
+            txtNuevaPass.TabIndex = 4;
+            txtNuevaPass.UseSystemPasswordChar = true;
+            // 
+            // txtConfirmarPass
+            // 
+            txtConfirmarPass.Location = new Point(258, 192);
+            txtConfirmarPass.Name = "txtConfirmarPass";
+            txtConfirmarPass.Size = new Size(127, 23);
+            txtConfirmarPass.TabIndex = 5;
+            txtConfirmarPass.UseSystemPasswordChar = true;
+            // 
+            // btnRegistrar
+            // 
+            btnRegistrar.Location = new Point(258, 230);
+            btnRegistrar.Name = "btnRegistrar";
+            btnRegistrar.Size = new Size(75, 23);
+            btnRegistrar.TabIndex = 6;
+            btnRegistrar.Text = "Registrar";
+            btnRegistrar.UseVisualStyleBackColor = true;
+            btnRegistrar.Click += btnRegistrar_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(btnRegistrar);
+            Controls.Add(txtConfirmarPass);
+            Controls.Add(txtNuevaPass);
+            Controls.Add(txtNuevoUsuario);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private TextBox txtNuevoUsuario;
+        private TextBox txtNuevaPass;
+        private TextBox txtConfirmarPass;
+        private Button btnRegistrar;
     }
 }
